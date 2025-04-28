@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #FAF9F6;
+  font-family: 'Poppins', 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #2C2C2C;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', 'Nunito', sans-serif;
+  color: #2C2C2C;
+}
+
+h1, .heading-xl {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h2, .heading-lg {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h3, .heading-md {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.subhead {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.body {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.04);
+  padding: 2rem;
+}
+
+.button-primary {
+  border-radius: 12px;
+  font-family: 'Poppins', 'Nunito', sans-serif;
+  font-weight: 600;
+  background: #3E7C59;
+  color: #fff;
+  transition: background 0.2s;
+}
+.button-primary:hover {
+  background: #35694a;
+}
+
+.button-secondary {
+  border-radius: 12px;
+  font-family: 'Poppins', 'Nunito', sans-serif;
+  font-weight: 500;
+  background: #B3C7B0;
+  color: #2C2C2C;
+  transition: background 0.2s;
+}
+.button-secondary:hover {
+  background: #A0B59F;
+}
+
+.section-icon {
+  color: #3E7C59;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.empty-illustration {
+  width: 120px;
+  margin: 0 auto 1rem auto;
+  display: block;
+}
+
+/* Update Tailwind base for rounded */
+.rounded-card {
+  border-radius: 16px !important;
+}
+.rounded-btn {
+  border-radius: 12px !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.tab-active {
+  color: #2C2C2C !important;
+  font-weight: 600;
+  background: #FFE8D6;
+  border-radius: 12px 12px 0 0;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.04);
+}
+.tab-inactive {
+  color: #B3C7B0 !important;
+  background: transparent;
+}
+
+.section-title, .heading-lg, .heading-xl, h1, h2, h3 {
+  color: #2C2C2C !important;
+  font-family: 'Poppins', 'Nunito', sans-serif;
+}
+
+.label, .text-label {
+  color: #3E7C59;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.bg-card {
+  background: #fff;
+}
+
+.bg-panel {
+  background: #FFE8D6;
+}
+
+.text-cream {
+  color: #FAF9F6;
+}
+.text-olive {
+  color: #3E7C59;
+}
+.text-sage {
+  color: #B3C7B0;
+}
+.text-charcoal, .text-soft-charcoal {
+  color: #2C2C2C;
+}
+
+.highlight {
+  background: #FFE8D6;
+}
